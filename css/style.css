@@ -19,6 +19,12 @@ nav {
     padding: 20px;
 }
 
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
 /*# Utils */
 
 .border {
@@ -60,19 +66,33 @@ nav {
     min-height: 700px;
 }
 
+.btn{
+    height: 35px;
+    width: 70px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #4c4c4c;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+
 /** header */
 
 header {
-    background-color: lightsteelblue;
+    background-color: #3161E0;
 }
 
-.box-logo,
 .box-link,
 .box-login {
-    background-color: goldenrod;
-    min-height: 50px;
+    text-align: center;
+    line-height: 50px;
 }
 
+.box-logo>img{
+    height: 50px;
+}
 .box-logo,
 .box-login {
     flex-basis: 20%;
@@ -80,6 +100,8 @@ header {
 
 .box-link {
     flex-basis: 60%;
+    justify-content: center;
+    gap: 30px;
 }
 
 header section {
@@ -102,7 +124,7 @@ main section:nth-child(2n+0) {
 /** footer */
 
 footer {
-    background-color: rgb(67, 67, 67);
+    background-color: #434343;
 }
 
 .adress {
