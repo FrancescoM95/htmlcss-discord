@@ -8,7 +8,9 @@
 /*# Generics */
 
 body{
-    font-family: 'Whitney', sans-serif;
+  
+    font-family: 'Whitney Semibold', sans-serif;
+   
 }
 
 main section {
@@ -22,9 +24,21 @@ nav {
 a{
     text-decoration: none;
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
 }
 
+h2{
+    font-size: 60px;
+    margin: 15px 0;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 15px 0;
+    line-height: 30px;
+  
+}
 /*# Utils */
 
 .border {
@@ -34,12 +48,6 @@ a{
 .container {
     max-width: 1200px;
     margin: 0 auto;
-}
-
-.little-container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 40px;
 }
 
 .flex {
@@ -67,31 +75,47 @@ a{
 }
 
 .btn{
-    height: 35px;
-    width: 70px;
+    min-height: 35px;
+    min-width: 70px;
     border-radius: 20px;
     background-color: #fff;
     border: 1px solid #fff;
     color: #4c4c4c;
     font-size: 14px;
+    padding: 5px 15px;
     text-align: center;
     cursor: pointer;
 }
 
+.btn.download,
+.btn.browser{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 25px;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.btn.browser{
+    color: #fff;
+    background-color: #23272A;
+    border: 1px solid #23272A;
+}
 /** header */
 
 header {
     background-color: #3161E0;
+    color: #fff;
 }
 
 .box-link,
 .box-login {
     text-align: center;
-    line-height: 50px;
+    line-height: 40px;
 }
 
 .box-logo>img{
-    height: 50px;
+    height: 40px;
 }
 .box-logo,
 .box-login {
@@ -104,18 +128,23 @@ header {
     gap: 30px;
 }
 
-header section {
-    background-color: blue;
-    min-height: 300px;
+#download{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 40px;
 }
+
+.main-header {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 70px;
+    text-align: center;   
+}
+
 
 /** main */
 
-.main-header {
-    background-color: violet;
-    min-height: 300px;
-    flex-basis: 100%;
-}
 
 main section:nth-child(2n+0) {
     background-color: #cecece;
