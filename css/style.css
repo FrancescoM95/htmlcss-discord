@@ -26,23 +26,27 @@ a {
     font-size: 16px;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 h1 {
     font-size: 55px;
-    font-weight: 900;
+    font-weight: bolder;
     padding: 10px;
     margin: 10px 0;
 }
 
 h2 {
-    font-size: 50px;
-    font-weight: 900;
+    font-size: 48px;
+    font-weight: bolder;
     margin: 10px 0;
     padding: 10px;
 }
 
 h3 {
     font-size: 32px;
-    font-weight: 900;
+    font-weight: bolder;
     margin: 10px 0;
     padding: 30px 0 10px 0;
 }
@@ -108,7 +112,7 @@ ul>li:first-child {
     padding: 50px;
 }
 
-/*@ Button */
+/*# Button */
 
 .btn {
     min-height: 35px;
@@ -118,6 +122,7 @@ ul>li:first-child {
     border: 1px solid #fff;
     color: #4c4c4c;
     font-size: 14px;
+    font-weight: 500;
     padding: 5px 15px;
     text-align: center;
     cursor: pointer;
@@ -126,8 +131,8 @@ ul>li:first-child {
 .btn.download,
 .btn.browser,
 .btn.special {
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 500;
     padding: 15px 25px;
     border-radius: 30px;
     margin: 10px;
@@ -149,8 +154,8 @@ ul>li:first-child {
     color: #fff;
     background-color: #8EA1E1;
     border: 1px solid #8EA1E1;
-    font-size: 12px;
-    font-weight: 600;
+    padding: 5px;
+    font-weight: 500;
     border-radius: 20px;
     width: 80px;
     height: 30px;
@@ -241,6 +246,7 @@ footer {
 
 .adress {
     flex-basis: 30%;
+    padding-right: 60px;
 }
 
 .adress img {
@@ -251,7 +257,7 @@ footer {
 .social {
     display: flex;
     justify-content: flex-start;
-    gap: 15px;
+    gap: 20px;
     padding: 20px 0;
     color: #fff;
 }
@@ -268,10 +274,11 @@ footer h3 {
 .card {
     flex-basis: 25%;
     line-height: 30px;
+    padding: 0 20px;
 }
 
 .container-special {
-    max-width: 1000px;
+    max-width: 1200px;
     min-height: 70px;
     margin: 0 auto;
     display: flex;
@@ -279,14 +286,17 @@ footer h3 {
 }
 
 #contacts {
-    max-width: 1000px;
-    border-bottom: 2px solid #8EA1E1;
+    max-width: 1200px;
+    border-bottom: 1px solid #8EA1E1;
     padding-top: 40px;
     display: flex;
-
 }
 
 #signin {
     margin-top: 20px;
     padding-bottom: 100px;
+}
+
+#signin a {
+    font-size: 13px;
 }
