@@ -176,22 +176,21 @@ header {
     line-height: 40px;
 }
 
-.box-logo>img {
-    position: absolute;
-    right: 20px;
-    height: 40px;
-}
-
 .box-logo,
 .box-login {
     flex-basis: 20%;
-    position: relative;
 }
 
 .box-link {
     flex-basis: 60%;
     justify-content: center;
     gap: 30px;
+}
+
+.box-logo>img {
+    right: 40px;
+    height: 40px;
+    margin-left: 10px;
 }
 
 #download {
